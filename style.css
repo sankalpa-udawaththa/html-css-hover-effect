@@ -1,0 +1,106 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: rgba(0, 116, 194, 0.863);
+
+
+}
+h1{
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+.head{
+    
+    margin: 2% auto;
+    border-radius: 10px;
+    width: 600px;
+    height: 80px;
+    background: linear-gradient(rgb(116, 3, 245),rgb(238, 0, 247),rgb(248, 0, 145))
+}
+.card{
+    width: 98.8vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgb(77, 0, 179),rgb(192, 2, 218));
+    overflow: hidden;
+    justify-content: center;
+}
+.card_box{
+    width: 400px;
+    height: 700px;
+    background: rgb(206, 206, 206);
+    background-image: url(pic.jpg);
+    filter: blur(5px);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    transition: .5s;
+
+}
+.emty_box{
+    width: 100px;
+    height: 700px;
+    display: flex;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+.card_box2{
+    width: 400px;
+    height: 700px;
+    background: rgb(206, 206, 206);
+    background-image: url(pic2.jpg);
+    filter: blur(5px);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    transition: .5s;
+}
+.emty_box{
+    width: 100px;
+    height: 700px;
+    display: flex;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+
+.card_box3{
+    width: 400px;
+    height: 700px;
+    background: rgb(206, 206, 206);
+    background-image: url(pic3.jpg);
+    filter: blur(5px);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.card_box:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.527);
+    filter: blur(0px);
+
+}
+
+.card_box2:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.527);
+    filter:blur(0px)
+
+}
+.card_box3:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.527);
+    filter: blur(0px);
+}
